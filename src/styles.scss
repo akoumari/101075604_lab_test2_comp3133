@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "@angular/material/prebuilt-themes/pink-bluegrey.css";
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+html, body { 
+    height: 100% !important; 
+color:white;
+background: rgb(27, 27, 27);
+}
+body { height: 100% !important;  margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.side-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 1000vh ;
+}
